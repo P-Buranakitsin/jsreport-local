@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300;500;700&display=swap');
+html,
+body {
+    font-size: small;
+}
+
+.zero-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 500;
+}
+
+.first-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.first-sub-container-1,
+.first-sub-container-2>* {
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 300;
+}
+
+.title-text {
+    font-weight: 700;
+    font-size: larger;
+    align-self: center;
+}
+
+.first-sub-sub-container-1 {
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    border: 1px solid;
+}
+
+.first-sub-sub-container-2 {
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    border: 1px solid;
+    margin-top: 14px;
+}
+
+.second-container {
+    margin-top: 20px;
+}
+
+.third-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    page-break-inside: avoid;
+}
+
+.third-sub-container-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.third-sub-container-2-sub-1,
+.third-sub-container-2-sub-2>* {
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 300;
+}
+
+.third-sub-container-2-sub-1,
+.third-sub-container-2-sub-2 {
+    height: 80px;
+    width: 200px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 4px;
+}
+
+.forth-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.third-sub-container-1 {
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 300;
+}
+
+.third-sub-container-1-sub-1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+
+table {
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 300;
+    font-size: small;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+.rs-60 {
+    margin-right: 60px;
+}
+
+.rs-120 {
+    margin-right: 120px;
+}
+
+.underline {
+    height: 20px;
+    border-bottom: 1px solid;
+}
+
+.dashed-underline-container {
+    position: relative;
+    height: 1px;
+    margin-top: 16px;
+}
+
+.dashed-underline {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, transparent 50%, #223049 50%);
+    background-size: 30px 100%;
+}
+
+.text-align-end {
+    text-align: end;
+}
+
+.multiple-spaces {
+    white-space: pre;
+}
+
+.square-with-diagonal {
+    border: 1px solid;
+    width: 18px;
+    height: 18px;
+    position: relative;
+}
+
+.square-with-diagonal::after {
+    content: "";
+    position: absolute;
+    border-top: 1px solid;
+    width: 24px;
+    transform: rotate(-45deg);
+    top: 50%;
+    left: -15%;
+}
+
+.square-without-diagonal {
+    border: 1px solid;
+    width: 18px;
+    height: 18px;
+    position: relative;
+}
+
+.third-sub-container-1-sub-1-sub-1 {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+.third-sub-container-1-sub-1-sub-2 {
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,15 @@
+{
+    "shortid": "PX7nym93v",
+    "name": "data",
+    "creationDate": {
+        "$$date": 1653406717206
+    },
+    "modificationDate": {
+        "$$date": 1654157598092
+    },
+    "_id": "3dVlvUD3JSLVWiVe",
+    "$entitySet": "data",
+    "entitySet": "data",
+    "type": "entity",
+    "key": "3dVlvUD3JSLVWiVe"
+}

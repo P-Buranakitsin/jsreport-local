@@ -1,0 +1,15 @@
+{
+  "name": "jsreport-server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "jsreport": "jsreport"
+  },
+  "jsreport": {
+    "entryPoint": "server.js"
+  },
+  "dependencies": {
+    "date-fns": "^2.28.0",
+    "jsreport": "^3.5.0"
+  }
+}

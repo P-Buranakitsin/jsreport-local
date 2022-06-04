@@ -1,0 +1,27 @@
+{
+    "name": "coffin-template",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "data": {
+        "shortid": "PX7nym93v"
+    },
+    "shortid": "IEkXjVCUJ",
+    "chrome": {
+        "printBackground": true,
+        "mediaType": "print",
+        "scale": 1,
+        "format": "A4",
+        "marginTop": "0.5cm",
+        "marginBottom": "0.5cm",
+        "marginRight": "0.5cm",
+        "marginLeft": "0.5cm"
+    },
+    "creationDate": {
+        "$$date": 1653406800803
+    },
+    "modificationDate": {
+        "$$date": 1654157571814
+    },
+    "_id": "ffPNtFDkN0yIw2bT",
+    "$entitySet": "templates"
+}

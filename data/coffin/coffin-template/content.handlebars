@@ -1,0 +1,218 @@
+<html>
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <style>
+        {{asset "/coffin/assets/stylesheets/styles.css"}}
+    </style>
+</head>
+
+<body>
+    <div class="zero-container">
+        <img src="{{asset "/coffin/assets/images/logo.png" "dataURI"}}" style="width:100%; max-width:100px;" />
+        <div>
+            <div style="text-align: center">ต้นฉบับ</div>
+            <div class="title-text" style="margin-top: 4px">ใบเสร็จรับเงิน</div>
+        </div>
+        <div>&nbsp</div>
+    </div>
+    <div class="first-container">
+        <div class="first-sub-container-1">
+            <div>การฌาปนกิจสงเคราะห์</div>
+            <div>สำนักงานการปฏิรูปที่ดินเพื่อเกษตรกรรม</div>
+            <div>เลขที่ 1 ถนนราชดำเนินนอก</div>
+            <div>แขวงบ้านพานถม เขตพระนคร</div>
+            <div>กรุงเทพฯ 10200</div>
+            <div>โทรศัพท์/โทรสาร 0-2280-7052</div>
+        </div>
+        <div class="first-sub-container-2">
+            <div class="first-sub-sub-container-1">
+                <div class="rs-60">เล่มที่ {{book}}</div>
+                <div class="rs-60">เลขที่ {{bookNo}}</div>
+            </div>
+            <div class="first-sub-sub-container-2">
+                <div class="rs-120">วันที่ {{formatDate date}}</div>
+            </div>
+        </div>
+    </div>
+    <div class="underline"></div>
+    <div class="second-container">
+        <table>
+            <tr>
+                <th>เลขสมาชิก</th>
+                <th>ชื่อ - นามสกุล</th>
+                <th>รายการ</th>
+                <th>จำนวนเงิน</th>
+            </tr>
+            <tr>
+                <td>{{this.memberNo}}</td>
+                <td>{{name}}</td>
+                <td>ค่าสมัครสมาชิก</td>
+                <td style="text-align: end">{{addComma payRegister}}</td>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>เงินสงเคราะห์ล่วงหน้า</td>
+                        <td style="text-align: end">{{addComma payAllowance}}</td>
+                    </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>ชำระศพ</td>
+                    <td style="text-align: end">{{addComma payFuneral}}</td>
+                </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>เงินสงเคราะห์รับฝาก</td>
+                        <td style="text-align: end">{{addComma deposit}}</td>
+                    </tr>
+                <tr>
+                    <td></td>
+                    <td class="bold-text">รวม {{getNumberText payFuneral payAllowance payRegister deposit}}</td>
+                    <td></td>
+                    <td class="bold-text text-align-end">{{totalPrice payFuneral payAllowance payRegister deposit}}</td>
+                </tr>
+        </table>
+    </div>
+    <div class="underline"></div>
+    <div class="third-container">
+        <div class="third-sub-container-1">
+            <div>ชำระ:</div>
+            <div class="third-sub-container-1-sub-1">
+                <div class="third-sub-container-1-sub-1-sub-1">
+                    {{#if cash}}
+                    <div class="square-with-diagonal"></div>
+                    {{else}}
+                    <div class="square-without-diagonal"></div>
+                    {{/if}}
+                    <div style="margin-left: 10px">เงินสด</div>
+                </div>
+                <div class="third-sub-container-1-sub-1-sub-2">
+                    {{#if bankTransfer}}
+                    <div class="square-with-diagonal"></div>
+                    {{else}}
+                    <div class="square-without-diagonal"></div>
+                    {{/if}}
+                    <div style="margin-left: 10px">โอนธนาคาร</div>
+                </div>
+            </div>
+        </div>
+        <div class="third-sub-container-2">
+            <div class="third-sub-container-2-sub-1">
+                <div>เหรัญญิก</div>
+                <div>การฌาปนกิจสงเคราะห์ ส.ป.ก.</div>
+            </div>
+            <div class="third-sub-container-2-sub-2">
+                <div>เจ้าหน้าที่การเงิน</div>
+            </div>
+        </div>
+    </div>
+    <div class="dashed-underline-container">
+        <div class="dashed-underline"></div>
+    </div>
+
+    {{!-- -----------------------------------------------------------------------------------------------------}}
+    <div class="forth-container">
+        <img src="{{asset "/coffin/assets/images/logo.png" "dataURI"}}" style="width:100%; max-width:100px;" />
+        <div>
+            <div style="text-align: center">สำเนา</div>
+            <div class="title-text" style="margin-top: 4px">ใบเสร็จรับเงิน</div>
+        </div>
+        <div>&nbsp</div>
+    </div>
+    <div class="first-container">
+        <div class="first-sub-container-1">
+            <div>การฌาปนกิจสงเคราะห์</div>
+            <div>สำนักงานการปฏิรูปที่ดินเพื่อเกษตรกรรม</div>
+            <div>เลขที่ 1 ถนนราชดำเนินนอก</div>
+            <div>แขวงบ้านพานถม เขตพระนคร</div>
+            <div>กรุงเทพฯ 10200</div>
+            <div>โทรศัพท์/โทรสาร 0-2280-7052</div>
+        </div>
+        <div class="first-sub-container-2">
+            <div class="first-sub-sub-container-1">
+                <div class="rs-60">เล่มที่ {{book}}</div>
+                <div class="rs-60">เลขที่ {{bookNo}}</div>
+            </div>
+            <div class="first-sub-sub-container-2">
+                <div class="rs-120">วันที่ {{formatDate date}}</div>
+            </div>
+        </div>
+    </div>
+    <div class="underline"></div>
+    <div class="second-container">
+        <table>
+            <tr>
+                <th>เลขสมาชิก</th>
+                <th>ชื่อ - นามสกุล</th>
+                <th>รายการ</th>
+                <th>จำนวนเงิน</th>
+            </tr>
+            <tr>
+                <td>{{this.memberNo}}</td>
+                <td>{{name}}</td>
+                <td>ค่าสมัครสมาชิก</td>
+                <td style="text-align: end">{{addComma payRegister}}</td>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>เงินสงเคราะห์ล่วงหน้า</td>
+                        <td style="text-align: end">{{addComma payAllowance}}</td>
+                    </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>ชำระศพ</td>
+                    <td style="text-align: end">{{addComma payFuneral}}</td>
+                </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>เงินสงเคราะห์รับฝาก</td>
+                        <td style="text-align: end">{{addComma deposit}}</td>
+                    </tr>
+                <tr>
+                    <td></td>
+                    <td class="bold-text">รวม {{getNumberText payFuneral payAllowance payRegister deposit}}</td>
+                    <td></td>
+                    <td class="bold-text text-align-end">{{totalPrice payFuneral payAllowance payRegister deposit}}</td>
+                </tr>
+        </table>
+    </div>
+    <div class="underline"></div>
+    <div class="third-container">
+        <div class="third-sub-container-1">
+            <div>ชำระ:</div>
+            <div class="third-sub-container-1-sub-1">
+                <div class="third-sub-container-1-sub-1-sub-1">
+                    {{#if cash}}
+                    <div class="square-with-diagonal"></div>
+                    {{else}}
+                    <div class="square-without-diagonal"></div>
+                    {{/if}}
+                    <div style="margin-left: 10px">เงินสด</div>
+                </div>
+                <div class="third-sub-container-1-sub-1-sub-2">
+                    {{#if bankTransfer}}
+                    <div class="square-with-diagonal"></div>
+                    {{else}}
+                    <div class="square-without-diagonal"></div>
+                    {{/if}}
+                    <div style="margin-left: 10px">โอนธนาคาร</div>
+                </div>
+            </div>
+        </div>
+        <div class="third-sub-container-2">
+            <div class="third-sub-container-2-sub-1">
+                <div>เหรัญญิก</div>
+                <div>การฌาปนกิจสงเคราะห์ ส.ป.ก.</div>
+            </div>
+            <div class="third-sub-container-2-sub-2">
+                <div>เจ้าหน้าที่การเงิน</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

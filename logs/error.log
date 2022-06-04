@@ -1,0 +1,312 @@
+2022-05-25T03:53:50.483Z - error: Error when processing render request 15 Timeout Error: chrome pdf generation not completed after 59848ms Error: Timeout Error: chrome pdf generation not completed after 59848ms
+    at Timeout._onTimeout (D:\cheddo\jsreport-local\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:389:21)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7) rootId=7tlzpg6ubj4cwbe, id=7tlzpg6ubj4cwbe
+2022-05-25T03:53:50.484Z - error: Rendering request 15 finished with error in 60008 ms rootId=7tlzpg6ubj4cwbe, id=7tlzpg6ubj4cwbe
+2022-05-25T11:49:40.354Z - error: Error when processing render request 3 Error when evaluating engine handlebars for template /coffin/coffin-template
+Unexpected token (1763:11) SyntaxError: Unexpected token (1763:11)
+    at Parser.pp$4.raise (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3462:15)
+    at Parser.pp$9.unexpected (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:756:10)
+    at Parser.pp$5.parseExprAtom (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2837:12)
+    at Parser.pp$5.parseExprSubscripts (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2629:21)
+    at Parser.pp$5.parseMaybeUnary (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2595:19)
+    at Parser.pp$5.parseExprOps (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2522:21)
+    at Parser.pp$5.parseMaybeConditional (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2505:21)
+    at Parser.pp$5.parseMaybeAssign (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2472:21)
+    at Parser.pp$5.parseExpression (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2435:21)
+    at Parser.pp$8.parseReturnStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1076:33) rootId=80i84t2nmdqyyco, id=80i84t2nmdqyyco
+2022-05-25T11:49:40.356Z - error: Rendering request 3 finished with error in 160 ms rootId=80i84t2nmdqyyco, id=80i84t2nmdqyyco
+2022-05-25T11:49:44.465Z - error: Error when processing render request 4 Error when evaluating engine handlebars for template /coffin/coffin-template
+Unexpected token (1763:11) SyntaxError: Unexpected token (1763:11)
+    at Parser.pp$4.raise (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3462:15)
+    at Parser.pp$9.unexpected (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:756:10)
+    at Parser.pp$5.parseExprAtom (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2837:12)
+    at Parser.pp$5.parseExprSubscripts (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2629:21)
+    at Parser.pp$5.parseMaybeUnary (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2595:19)
+    at Parser.pp$5.parseExprOps (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2522:21)
+    at Parser.pp$5.parseMaybeConditional (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2505:21)
+    at Parser.pp$5.parseMaybeAssign (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2472:21)
+    at Parser.pp$5.parseExpression (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2435:21)
+    at Parser.pp$8.parseReturnStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1076:33) rootId=koagpd63kn16wf0, id=koagpd63kn16wf0
+2022-05-25T11:49:44.467Z - error: Rendering request 4 finished with error in 108 ms rootId=koagpd63kn16wf0, id=koagpd63kn16wf0
+2022-05-27T08:16:56.236Z - error: Error when processing OData POST: /odata/assets Error: Entity with name "logo.png" already exists in the /coffin/assets/images folder.
+    at module.exports (D:\cheddo\jsreport-local\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at MainReporter.createError (D:\cheddo\jsreport-local\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:47:12)
+    at validateDuplicatedName (D:\cheddo\jsreport-local\node_modules\@jsreport\jsreport-core\lib\main\folders\validateDuplicatedName.js:83:20)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ListenerCollection.fire (D:\cheddo\jsreport-local\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+    at async Object.insert (D:\cheddo\jsreport-local\node_modules\@jsreport\jsreport-core\lib\main\store\collection.js:104:5)
+2022-05-27T14:38:39.251Z - error: Error when processing render request 295 Error when evaluating engine handlebars for template /coffin/coffin-template
+Identifier 'date' has already been declared (1756:10) SyntaxError: Identifier 'date' has already been declared (1756:10)
+    at Parser.pp$4.raise (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3462:15)
+    at Parser.pp$3.declareName (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3538:28)
+    at Parser.pp$7.checkLValSimple (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2138:50)
+    at Parser.pp$7.checkLValPattern (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2180:12)
+    at Parser.pp$8.parseVarId (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1315:10)
+    at Parser.pp$8.parseVar (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1297:12)
+    at Parser.pp$8.parseVarStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1163:10)
+    at Parser.pp$8.parseStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:911:19)
+    at Parser.pp$8.parseBlock (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1232:23)
+    at Parser.pp$5.parseFunctionBody (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3288:24) rootId=errvqalp3bwpa77, id=errvqalp3bwpa77
+2022-05-27T14:38:39.252Z - error: Rendering request 295 finished with error in 205 ms rootId=errvqalp3bwpa77, id=errvqalp3bwpa77
+2022-05-27T14:41:04.665Z - error: Error when processing render request 296 Error when evaluating engine handlebars for template /coffin/coffin-template
+Identifier 'date' has already been declared (1756:10) SyntaxError: Identifier 'date' has already been declared (1756:10)
+    at Parser.pp$4.raise (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3462:15)
+    at Parser.pp$3.declareName (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3538:28)
+    at Parser.pp$7.checkLValSimple (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2138:50)
+    at Parser.pp$7.checkLValPattern (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2180:12)
+    at Parser.pp$8.parseVarId (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1315:10)
+    at Parser.pp$8.parseVar (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1297:12)
+    at Parser.pp$8.parseVarStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1163:10)
+    at Parser.pp$8.parseStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:911:19)
+    at Parser.pp$8.parseBlock (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1232:23)
+    at Parser.pp$5.parseFunctionBody (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3288:24) rootId=upzpuebbn87xelp, id=upzpuebbn87xelp
+2022-05-27T14:41:04.668Z - error: Rendering request 296 finished with error in 92 ms rootId=upzpuebbn87xelp, id=upzpuebbn87xelp
+2022-05-27T14:41:05.480Z - error: Error when processing render request 297 Error when evaluating engine handlebars for template /coffin/coffin-template
+Identifier 'date' has already been declared (1756:10) SyntaxError: Identifier 'date' has already been declared (1756:10)
+    at Parser.pp$4.raise (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3462:15)
+    at Parser.pp$3.declareName (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3538:28)
+    at Parser.pp$7.checkLValSimple (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2138:50)
+    at Parser.pp$7.checkLValPattern (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2180:12)
+    at Parser.pp$8.parseVarId (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1315:10)
+    at Parser.pp$8.parseVar (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1297:12)
+    at Parser.pp$8.parseVarStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1163:10)
+    at Parser.pp$8.parseStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:911:19)
+    at Parser.pp$8.parseBlock (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1232:23)
+    at Parser.pp$5.parseFunctionBody (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3288:24) rootId=ysx6xr2l0rc8eqj, id=ysx6xr2l0rc8eqj
+2022-05-27T14:41:05.482Z - error: Rendering request 297 finished with error in 69 ms rootId=ysx6xr2l0rc8eqj, id=ysx6xr2l0rc8eqj
+2022-05-27T14:41:26.668Z - error: Error when processing render request 298 Error when evaluating engine handlebars for template /coffin/coffin-template
+Identifier 'date' has already been declared (1756:10) SyntaxError: Identifier 'date' has already been declared (1756:10)
+    at Parser.pp$4.raise (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3462:15)
+    at Parser.pp$3.declareName (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3538:28)
+    at Parser.pp$7.checkLValSimple (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2138:50)
+    at Parser.pp$7.checkLValPattern (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2180:12)
+    at Parser.pp$8.parseVarId (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1315:10)
+    at Parser.pp$8.parseVar (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1297:12)
+    at Parser.pp$8.parseVarStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1163:10)
+    at Parser.pp$8.parseStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:911:19)
+    at Parser.pp$8.parseBlock (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1232:23)
+    at Parser.pp$5.parseFunctionBody (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3288:24) rootId=6se049l9j2ufbbq, id=6se049l9j2ufbbq
+2022-05-27T14:41:26.670Z - error: Rendering request 298 finished with error in 89 ms rootId=6se049l9j2ufbbq, id=6se049l9j2ufbbq
+2022-05-27T14:41:27.461Z - error: Error when processing render request 299 Error when evaluating engine handlebars for template /coffin/coffin-template
+Identifier 'date' has already been declared (1756:10) SyntaxError: Identifier 'date' has already been declared (1756:10)
+    at Parser.pp$4.raise (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3462:15)
+    at Parser.pp$3.declareName (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3538:28)
+    at Parser.pp$7.checkLValSimple (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2138:50)
+    at Parser.pp$7.checkLValPattern (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2180:12)
+    at Parser.pp$8.parseVarId (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1315:10)
+    at Parser.pp$8.parseVar (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1297:12)
+    at Parser.pp$8.parseVarStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1163:10)
+    at Parser.pp$8.parseStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:911:19)
+    at Parser.pp$8.parseBlock (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1232:23)
+    at Parser.pp$5.parseFunctionBody (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3288:24) rootId=k5eogpk6mtousml, id=k5eogpk6mtousml
+2022-05-27T14:41:27.464Z - error: Rendering request 299 finished with error in 95 ms rootId=k5eogpk6mtousml, id=k5eogpk6mtousml
+2022-06-02T08:07:56.152Z - error: Error when processing render request 18 Error when evaluating engine handlebars for template /coffin/coffin-template
+Unexpected token (1755:24) SyntaxError: Unexpected token (1755:24)
+    at Parser.pp$4.raise (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3462:15)
+    at Parser.pp$9.unexpected (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:756:10)
+    at Parser.pp$9.expect (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:750:28)
+    at Parser.pp$7.parseBindingList (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2021:19)
+    at Parser.pp$8.parseFunctionParams (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1364:24)
+    at Parser.pp$8.parseFunction (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1353:10)
+    at Parser.pp$8.parseFunctionStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1054:17)
+    at Parser.pp$8.parseStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:899:19)
+    at Parser.pp$8.parseBlock (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1232:23)
+    at Parser.pp$5.parseFunctionBody (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3288:24) rootId=3ysfi5trxirs5a8, id=3ysfi5trxirs5a8
+2022-06-02T08:07:56.154Z - error: Rendering request 18 finished with error in 158 ms rootId=3ysfi5trxirs5a8, id=3ysfi5trxirs5a8
+2022-06-02T08:08:20.334Z - error: Error when processing render request 19 Error when evaluating engine handlebars for template /coffin/coffin-template
+Unexpected token (1755:24) SyntaxError: Unexpected token (1755:24)
+    at Parser.pp$4.raise (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3462:15)
+    at Parser.pp$9.unexpected (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:756:10)
+    at Parser.pp$9.expect (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:750:28)
+    at Parser.pp$7.parseBindingList (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2021:19)
+    at Parser.pp$8.parseFunctionParams (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1364:24)
+    at Parser.pp$8.parseFunction (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1353:10)
+    at Parser.pp$8.parseFunctionStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1054:17)
+    at Parser.pp$8.parseStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:899:19)
+    at Parser.pp$8.parseBlock (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1232:23)
+    at Parser.pp$5.parseFunctionBody (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3288:24) rootId=e0js9x4t6cn8vq6, id=e0js9x4t6cn8vq6
+2022-06-02T08:08:20.336Z - error: Rendering request 19 finished with error in 119 ms rootId=e0js9x4t6cn8vq6, id=e0js9x4t6cn8vq6
+2022-06-02T08:08:35.879Z - error: Error when processing render request 20 Error when evaluating engine handlebars for template /coffin/coffin-template
+Unexpected token (1755:24) SyntaxError: Unexpected token (1755:24)
+    at Parser.pp$4.raise (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3462:15)
+    at Parser.pp$9.unexpected (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:756:10)
+    at Parser.pp$9.expect (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:750:28)
+    at Parser.pp$7.parseBindingList (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2021:19)
+    at Parser.pp$8.parseFunctionParams (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1364:24)
+    at Parser.pp$8.parseFunction (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1353:10)
+    at Parser.pp$8.parseFunctionStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1054:17)
+    at Parser.pp$8.parseStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:899:19)
+    at Parser.pp$8.parseBlock (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1232:23)
+    at Parser.pp$5.parseFunctionBody (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3288:24) rootId=3ypicsi0ioxxuye, id=3ypicsi0ioxxuye
+2022-06-02T08:08:35.881Z - error: Rendering request 20 finished with error in 105 ms rootId=3ypicsi0ioxxuye, id=3ypicsi0ioxxuye
+2022-06-02T08:09:01.512Z - error: Error when processing render request 21 Error when evaluating engine handlebars for template /coffin/coffin-template
+Unexpected token (1755:24) SyntaxError: Unexpected token (1755:24)
+    at Parser.pp$4.raise (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3462:15)
+    at Parser.pp$9.unexpected (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:756:10)
+    at Parser.pp$9.expect (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:750:28)
+    at Parser.pp$7.parseBindingList (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2021:19)
+    at Parser.pp$8.parseFunctionParams (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1364:24)
+    at Parser.pp$8.parseFunction (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1353:10)
+    at Parser.pp$8.parseFunctionStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1054:17)
+    at Parser.pp$8.parseStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:899:19)
+    at Parser.pp$8.parseBlock (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1232:23)
+    at Parser.pp$5.parseFunctionBody (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3288:24) rootId=jlyxsxqtmwmr5ze, id=jlyxsxqtmwmr5ze
+2022-06-02T08:09:01.514Z - error: Rendering request 21 finished with error in 74 ms rootId=jlyxsxqtmwmr5ze, id=jlyxsxqtmwmr5ze
+2022-06-02T08:09:02.645Z - error: Error when processing render request 22 Error when evaluating engine handlebars for template /coffin/coffin-template
+Unexpected token (1755:24) SyntaxError: Unexpected token (1755:24)
+    at Parser.pp$4.raise (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3462:15)
+    at Parser.pp$9.unexpected (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:756:10)
+    at Parser.pp$9.expect (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:750:28)
+    at Parser.pp$7.parseBindingList (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2021:19)
+    at Parser.pp$8.parseFunctionParams (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1364:24)
+    at Parser.pp$8.parseFunction (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1353:10)
+    at Parser.pp$8.parseFunctionStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1054:17)
+    at Parser.pp$8.parseStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:899:19)
+    at Parser.pp$8.parseBlock (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1232:23)
+    at Parser.pp$5.parseFunctionBody (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3288:24) rootId=qjikh9g835ypqry, id=qjikh9g835ypqry
+2022-06-02T08:09:02.647Z - error: Rendering request 22 finished with error in 53 ms rootId=qjikh9g835ypqry, id=qjikh9g835ypqry
+2022-06-02T08:09:07.830Z - error: Error when processing render request 23 Error when evaluating engine handlebars for template /coffin/coffin-template
+Unexpected token (1755:24) SyntaxError: Unexpected token (1755:24)
+    at Parser.pp$4.raise (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3462:15)
+    at Parser.pp$9.unexpected (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:756:10)
+    at Parser.pp$9.expect (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:750:28)
+    at Parser.pp$7.parseBindingList (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2021:19)
+    at Parser.pp$8.parseFunctionParams (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1364:24)
+    at Parser.pp$8.parseFunction (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1353:10)
+    at Parser.pp$8.parseFunctionStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1054:17)
+    at Parser.pp$8.parseStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:899:19)
+    at Parser.pp$8.parseBlock (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1232:23)
+    at Parser.pp$5.parseFunctionBody (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3288:24) rootId=fm1liuetmiz2nyn, id=fm1liuetmiz2nyn
+2022-06-02T08:09:07.832Z - error: Rendering request 23 finished with error in 51 ms rootId=fm1liuetmiz2nyn, id=fm1liuetmiz2nyn
+2022-06-02T08:09:09.181Z - error: Error when processing render request 24 Error when evaluating engine handlebars for template /coffin/coffin-template
+Unexpected token (1755:24) SyntaxError: Unexpected token (1755:24)
+    at Parser.pp$4.raise (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3462:15)
+    at Parser.pp$9.unexpected (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:756:10)
+    at Parser.pp$9.expect (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:750:28)
+    at Parser.pp$7.parseBindingList (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2021:19)
+    at Parser.pp$8.parseFunctionParams (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1364:24)
+    at Parser.pp$8.parseFunction (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1353:10)
+    at Parser.pp$8.parseFunctionStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1054:17)
+    at Parser.pp$8.parseStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:899:19)
+    at Parser.pp$8.parseBlock (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1232:23)
+    at Parser.pp$5.parseFunctionBody (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3288:24) rootId=uoydgbetj2hhitm, id=uoydgbetj2hhitm
+2022-06-02T08:09:09.183Z - error: Rendering request 24 finished with error in 62 ms rootId=uoydgbetj2hhitm, id=uoydgbetj2hhitm
+2022-06-02T08:09:09.773Z - error: Error when processing render request 25 Error when evaluating engine handlebars for template /coffin/coffin-template
+Unexpected token (1755:24) SyntaxError: Unexpected token (1755:24)
+    at Parser.pp$4.raise (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3462:15)
+    at Parser.pp$9.unexpected (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:756:10)
+    at Parser.pp$9.expect (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:750:28)
+    at Parser.pp$7.parseBindingList (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2021:19)
+    at Parser.pp$8.parseFunctionParams (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1364:24)
+    at Parser.pp$8.parseFunction (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1353:10)
+    at Parser.pp$8.parseFunctionStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1054:17)
+    at Parser.pp$8.parseStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:899:19)
+    at Parser.pp$8.parseBlock (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1232:23)
+    at Parser.pp$5.parseFunctionBody (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3288:24) rootId=ihis8ezewdwnz2k, id=ihis8ezewdwnz2k
+2022-06-02T08:09:09.776Z - error: Rendering request 25 finished with error in 62 ms rootId=ihis8ezewdwnz2k, id=ihis8ezewdwnz2k
+2022-06-02T08:09:31.964Z - error: Error when processing render request 26 Error when evaluating engine handlebars for template /coffin/coffin-template
+Unexpected token (1755:24) SyntaxError: Unexpected token (1755:24)
+    at Parser.pp$4.raise (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3462:15)
+    at Parser.pp$9.unexpected (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:756:10)
+    at Parser.pp$9.expect (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:750:28)
+    at Parser.pp$7.parseBindingList (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2021:19)
+    at Parser.pp$8.parseFunctionParams (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1364:24)
+    at Parser.pp$8.parseFunction (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1353:10)
+    at Parser.pp$8.parseFunctionStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1054:17)
+    at Parser.pp$8.parseStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:899:19)
+    at Parser.pp$8.parseBlock (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1232:23)
+    at Parser.pp$5.parseFunctionBody (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3288:24) rootId=gpobpkrbvxrok7o, id=gpobpkrbvxrok7o
+2022-06-02T08:09:31.966Z - error: Rendering request 26 finished with error in 54 ms rootId=gpobpkrbvxrok7o, id=gpobpkrbvxrok7o
+2022-06-02T08:09:51.966Z - error: Error when processing render request 27 Error when evaluating engine handlebars for template /coffin/coffin-template
+Unexpected token (1755:24) SyntaxError: Unexpected token (1755:24)
+    at Parser.pp$4.raise (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3462:15)
+    at Parser.pp$9.unexpected (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:756:10)
+    at Parser.pp$9.expect (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:750:28)
+    at Parser.pp$7.parseBindingList (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2021:19)
+    at Parser.pp$8.parseFunctionParams (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1364:24)
+    at Parser.pp$8.parseFunction (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1353:10)
+    at Parser.pp$8.parseFunctionStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1054:17)
+    at Parser.pp$8.parseStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:899:19)
+    at Parser.pp$8.parseBlock (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1232:23)
+    at Parser.pp$5.parseFunctionBody (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3288:24) rootId=3c3rtpism2t8axl, id=3c3rtpism2t8axl
+2022-06-02T08:09:51.968Z - error: Rendering request 27 finished with error in 58 ms rootId=3c3rtpism2t8axl, id=3c3rtpism2t8axl
+2022-06-02T08:09:52.634Z - error: Error when processing render request 28 Error when evaluating engine handlebars for template /coffin/coffin-template
+Unexpected token (1755:24) SyntaxError: Unexpected token (1755:24)
+    at Parser.pp$4.raise (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3462:15)
+    at Parser.pp$9.unexpected (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:756:10)
+    at Parser.pp$9.expect (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:750:28)
+    at Parser.pp$7.parseBindingList (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2021:19)
+    at Parser.pp$8.parseFunctionParams (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1364:24)
+    at Parser.pp$8.parseFunction (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1353:10)
+    at Parser.pp$8.parseFunctionStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1054:17)
+    at Parser.pp$8.parseStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:899:19)
+    at Parser.pp$8.parseBlock (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1232:23)
+    at Parser.pp$5.parseFunctionBody (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3288:24) rootId=9l2y72wb4hh7lsz, id=9l2y72wb4hh7lsz
+2022-06-02T08:09:52.636Z - error: Rendering request 28 finished with error in 59 ms rootId=9l2y72wb4hh7lsz, id=9l2y72wb4hh7lsz
+2022-06-02T08:09:52.947Z - error: Error when processing render request 29 Error when evaluating engine handlebars for template /coffin/coffin-template
+Unexpected token (1755:24) SyntaxError: Unexpected token (1755:24)
+    at Parser.pp$4.raise (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3462:15)
+    at Parser.pp$9.unexpected (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:756:10)
+    at Parser.pp$9.expect (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:750:28)
+    at Parser.pp$7.parseBindingList (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2021:19)
+    at Parser.pp$8.parseFunctionParams (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1364:24)
+    at Parser.pp$8.parseFunction (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1353:10)
+    at Parser.pp$8.parseFunctionStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1054:17)
+    at Parser.pp$8.parseStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:899:19)
+    at Parser.pp$8.parseBlock (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1232:23)
+    at Parser.pp$5.parseFunctionBody (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3288:24) rootId=64h49yysa4z2kf9, id=64h49yysa4z2kf9
+2022-06-02T08:09:52.949Z - error: Rendering request 29 finished with error in 38 ms rootId=64h49yysa4z2kf9, id=64h49yysa4z2kf9
+2022-06-02T08:09:53.146Z - error: Error when processing render request 30 Error when evaluating engine handlebars for template /coffin/coffin-template
+Unexpected token (1755:24) SyntaxError: Unexpected token (1755:24)
+    at Parser.pp$4.raise (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3462:15)
+    at Parser.pp$9.unexpected (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:756:10)
+    at Parser.pp$9.expect (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:750:28)
+    at Parser.pp$7.parseBindingList (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2021:19)
+    at Parser.pp$8.parseFunctionParams (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1364:24)
+    at Parser.pp$8.parseFunction (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1353:10)
+    at Parser.pp$8.parseFunctionStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1054:17)
+    at Parser.pp$8.parseStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:899:19)
+    at Parser.pp$8.parseBlock (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1232:23)
+    at Parser.pp$5.parseFunctionBody (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3288:24) rootId=98ca2fptduzaj5f, id=98ca2fptduzaj5f
+2022-06-02T08:09:53.150Z - error: Rendering request 30 finished with error in 41 ms rootId=98ca2fptduzaj5f, id=98ca2fptduzaj5f
+2022-06-02T08:09:53.347Z - error: Error when processing render request 31 Error when evaluating engine handlebars for template /coffin/coffin-template
+Unexpected token (1755:24) SyntaxError: Unexpected token (1755:24)
+    at Parser.pp$4.raise (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3462:15)
+    at Parser.pp$9.unexpected (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:756:10)
+    at Parser.pp$9.expect (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:750:28)
+    at Parser.pp$7.parseBindingList (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2021:19)
+    at Parser.pp$8.parseFunctionParams (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1364:24)
+    at Parser.pp$8.parseFunction (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1353:10)
+    at Parser.pp$8.parseFunctionStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1054:17)
+    at Parser.pp$8.parseStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:899:19)
+    at Parser.pp$8.parseBlock (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1232:23)
+    at Parser.pp$5.parseFunctionBody (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3288:24) rootId=0uuk8mm1229fcls, id=0uuk8mm1229fcls
+2022-06-02T08:09:53.355Z - error: Rendering request 31 finished with error in 57 ms rootId=0uuk8mm1229fcls, id=0uuk8mm1229fcls
+2022-06-02T08:09:53.506Z - error: Error when processing render request 32 Error when evaluating engine handlebars for template /coffin/coffin-template
+Unexpected token (1755:24) SyntaxError: Unexpected token (1755:24)
+    at Parser.pp$4.raise (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3462:15)
+    at Parser.pp$9.unexpected (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:756:10)
+    at Parser.pp$9.expect (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:750:28)
+    at Parser.pp$7.parseBindingList (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2021:19)
+    at Parser.pp$8.parseFunctionParams (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1364:24)
+    at Parser.pp$8.parseFunction (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1353:10)
+    at Parser.pp$8.parseFunctionStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1054:17)
+    at Parser.pp$8.parseStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:899:19)
+    at Parser.pp$8.parseBlock (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1232:23)
+    at Parser.pp$5.parseFunctionBody (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3288:24) rootId=1r9zc03na4c7mrm, id=1r9zc03na4c7mrm
+2022-06-02T08:09:53.508Z - error: Rendering request 32 finished with error in 36 ms rootId=1r9zc03na4c7mrm, id=1r9zc03na4c7mrm
+2022-06-02T08:09:53.671Z - error: Error when processing render request 33 Error when evaluating engine handlebars for template /coffin/coffin-template
+Unexpected token (1755:24) SyntaxError: Unexpected token (1755:24)
+    at Parser.pp$4.raise (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3462:15)
+    at Parser.pp$9.unexpected (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:756:10)
+    at Parser.pp$9.expect (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:750:28)
+    at Parser.pp$7.parseBindingList (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:2021:19)
+    at Parser.pp$8.parseFunctionParams (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1364:24)
+    at Parser.pp$8.parseFunction (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1353:10)
+    at Parser.pp$8.parseFunctionStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1054:17)
+    at Parser.pp$8.parseStatement (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:899:19)
+    at Parser.pp$8.parseBlock (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:1232:23)
+    at Parser.pp$5.parseFunctionBody (D:\cheddo\jsreport-local\node_modules\acorn\dist\acorn.js:3288:24) rootId=osp1ifdohy0sc6s, id=osp1ifdohy0sc6s
+2022-06-02T08:09:53.673Z - error: Rendering request 33 finished with error in 42 ms rootId=osp1ifdohy0sc6s, id=osp1ifdohy0sc6s
